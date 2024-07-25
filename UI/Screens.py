@@ -47,7 +47,7 @@ class MainMenu(Screen):
         screen.fill(self._palette.get_color_by_name('soft_blue'))
         # Title
         title_font = pygame.font.Font(None, 74)
-        title_text = title_font.render("Ezra Rising: the Siloing", True, self._palette.get_color_by_name('black'))
+        title_text = title_font.render("Ezra Rising", True, self._palette.get_color_by_name('black'))
         screen.blit(title_text, (screen_width // 2 - title_text.get_width() // 2, screen_height // 4 - title_text.get_height() // 2))
         # Instructions
         self._play_button.draw(self._mouse)

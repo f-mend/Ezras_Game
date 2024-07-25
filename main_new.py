@@ -23,7 +23,7 @@ def Main():
                 running = False
             screen_manager.handle_events(event, combat_manager)
         # Clear the screenaS
-        screen.fill(palette.get_color_by_name('white'))
+       
         # Draw the current screen
         screen_manager.draw(screen, combat_manager._player, combat_manager._selected_enemies)
         # Update the display z
